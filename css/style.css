@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap')
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: 'Rokkitt', serif;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Media Icons */
+.media-icons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 3%;
+}
+
+.media-icons i {
+  font-size: 2.75rem;
+  padding-top: 2rem;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+}
+
+.section h1 {
+  font-size: 3rem;
+}
+
+/* Home */
+.home {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  /* flex-direction: column; */
+}
+
+.intro-wrapper {
+  flex: 2;
+}
+
+.image-wrapper {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: rgba(255, 241, 0, 0.7)
+}
+
+a:hover {
+  color: rgba(255, 241, 0, 1)
+}
+
+.title h1 {
+  font-size: 5rem;
+}
+
+.about {
+  font-size: 1.4rem;
+}
+
+i {
+  font-size: 2rem;
+}
+
+#spacer {
+  padding: 2rem;
+}
+
+/* NavBar */
+.text {
+  font-size: 2rem;
+  padding: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Portfolio */
+
+.projects {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  min-height: 400px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Contact */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  place-items: center;
+  height: 100%;
+  border: solid 2px black;
+}
+
+.wrapper h2 {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+/*
+#FFF100
+#001220
+#B20024
+*/
